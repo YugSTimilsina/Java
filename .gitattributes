@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+echo "# Java-Sem-4" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/YugSTimilsina/Java-Sem-4.git
+git push -u origin main
