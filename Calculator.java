@@ -19,14 +19,16 @@ public class Calculator {
                     System.out.println("Result: " + (a + b));
                     break;
                 case '-':
-                    System.out.println("Result: " + (a - b));
+                    System.out.println("Result: "+ (a - b));
                     break;
                 case '*':
                     System.out.println("Result: " + (a * b));
                     break;
                 case '/':
-                    if (b != 0)
-                        System.out.println("Result: " + (a / b));
+                    if (b != 0 && a!=0){
+                        System.out.println("Result: " +a+"/"+b+"=" + (a / b));
+                        System.out.println("Result: " +b+"/"+a+"=" + (b / a));
+                    }
                     else
                         System.out.println("Error: Cannot divide by zero.");
                     break;
